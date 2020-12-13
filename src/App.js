@@ -20,12 +20,12 @@ class App extends Component {
             <Switch>
              {/* <Route path="/" component={Dashboard} exact/> */}
              <Route path="/" component={Dashboard}/>
-             <Route path="/posts" component={Home} />
-             <Route path="/messages" component={Posts}/>
-             <Route path="/contact" component={Mygroups}/>
-             <Route path="/groups" component={Groups}/>
-             <Route path="/settings" component={Settings}/>
-             <Route path="/profile" component={Profile}/>
+             <Route path="/posts" component={Home} exact/>
+             <Route path="/messages" component={Posts} exact/>
+             <Route path="/contact" component={Mygroups} exact/>
+             <Route path="/groups" component={Groups} exact/>
+             <Route path="/settings" component={Settings} exact/>
+             <Route path="/profile" component={Profile} exact/>
             {/* <Route component={Error}/> */}
            </Switch>
         </div> 
