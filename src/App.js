@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
 import Home from './components/Home';
 import Mygroups from './components/Mygroups';
-import Error from './components/Error';
+// import Error from './components/Error';
 import Navigation from './components/Navigation';
 import Dashboard from './components/Dashboard';
 import Posts from './components/CreatePost';
@@ -25,7 +25,7 @@ class App extends Component {
              <Route path="/groups" component={Groups}/>
              <Route path="/settings" component={Settings}/>
              <Route path="/profile" component={Profile}/>
-            <Route component={Error}/>
+            {/* <Route component={Error}/> */}
            </Switch>
         </div> 
       </BrowserRouter>
