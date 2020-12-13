@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap');
+#home{
+    margin-left: 20%;
+}
+#font1{
+    font-family: 'Chakra Petch', sans-serif;
+}
+#profilebtn{
+    left: 77%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#dashboardcount{
+    /* float: right; */
+    margin-top: -23%;
+}
+#contactsuggestions{
+    width: 100%;
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+#contactsuggestions::-webkit-scrollbar {
+    width:0.2em;
+    border: 3px solid  rgba(0, 0, 0, 0.3);
+
+  }
+   
+#contactsuggestions::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   /*  */
+   #contactsuggestions::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    border-radius: 8px;
+  }
+@media only screen and (max-width: 600px) {
+    #home{
+        margin-left: 0%;
+        padding:2%;
+    }
+    #profilebtn{
+        left: 50%;
+    }
+    #dashboardcount{
+        margin-top: -16%;
+    }
+    #contactsuggestions{
+    width: 100%;
+    height: 100%;
+    }
+    #contactsuggestions .MuiBox-root{
+        padding:10px!important;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    #home{
+        margin-left: 31%;
+        padding:2%;
+    }
+    #profilebtn{
+        left: 60%;
+    }
+    #contactsuggestions{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 800px) {
+    #home{
+        margin-left:23%;
+        padding:2%;
+    }
+    #profilebtn{
+        left: 60%;
+    }
+    #contactsuggestions{
+        width: 100%;
+        height: 100%;
+    }
+}
